@@ -14,7 +14,7 @@
      * WAV,
      * FLAC to MP3
      */
-    public static String[] amr(String amr, String outputUrl) {
+    public static String[] amr(String audio, String outputUrl) {
         ArrayList<String> _commands = new ArrayList<>();
         _commands.add("-y");
         _commands.add("-i");
