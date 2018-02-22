@@ -35,7 +35,7 @@ public class Utils {
      * WAV,
      * FLAC;转MP3
      */
-    public static String[] amr(String amr, String outputUrl) {
+    public static String[] audioToMp3(String amr, String outputUrl) {
         ArrayList<String> _commands = new ArrayList<>();
         _commands.add("-y");
         _commands.add("-i");

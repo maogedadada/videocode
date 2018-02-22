@@ -45,7 +45,7 @@ public class MainActivity extends Activity implements BaseQuickAdapter.OnItemCli
         String text = adapter.getData().get(position).toString();
         String[] cmds = null;
         if ("多种音频格式（M4A,AMR,AAC,WMA,WAV,FLAC等）转MP3".equals(text)) {
-            cmds = Utils.amr(mDirectory + "/66.amr", mDirectory + "/999.mp3");
+            cmds = Utils.audioToMp3(mDirectory + "/66.amr", mDirectory + "/999.mp3");
         } else if ("视频消音".equals(text)) {
             cmds = Utils.makeVideoNoVoice(mDirectory + "/66.mp4", mDirectory + "/999.mp4");
         } else if ("多段音频合并(拼接)".equals(text)) {
