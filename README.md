@@ -6,7 +6,9 @@
 + Several audio merge(put together)
 
 ##how to use(so easy)
+
 ###Several audio merge(put together)
+
  	/**
      * 多段音频合并(拼接)
      */
@@ -34,6 +36,7 @@
     }
 
 ###Video muted
+
  	/**
      * 视频消除声音
      */
