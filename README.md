@@ -1,4 +1,4 @@
-
+#中文版 (http://blog.csdn.net/maogedadada/article/details/79348704).
 #About using ffmpeg on android
 + A variety of audio formats (: M4A, AMR, AAC, WMA, WAV, FLAC, etc.) turn MP3
 + Video muted
@@ -14,7 +14,7 @@
      * WAV,
      * FLAC to MP3
      */
-    public static String[] amr(String audio, String outputUrl) {
+    public static String[] amr(String audio, String outputUrl) {
         ArrayList<String> _commands = new ArrayList<>();
         _commands.add("-y");
         _commands.add("-i");
