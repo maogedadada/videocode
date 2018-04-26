@@ -1,4 +1,4 @@
-#中文版 (http://blog.csdn.net/maogedadada/article/details/79348704).
+
 
 #About using ffmpeg on android
 + A variety of audio formats (: M4A, AMR, AAC, WMA, WAV, FLAC, etc.) turn MP3
