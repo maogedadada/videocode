@@ -94,3 +94,5 @@
                 closeProgress();
             }
         });
+	
+	## Thanks for https://github.com/adrielcafe/AndroidAudioConverter
